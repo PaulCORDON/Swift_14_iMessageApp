@@ -13,6 +13,10 @@
 		39A9421822967C020037A9E8 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A9421722967C020037A9E8 /* MessagesViewController.swift */; };
 		39A9421B22967C020037A9E8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A9421922967C020037A9E8 /* MainInterface.storyboard */; };
 		39A9421D22967C020037A9E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A9421C22967C020037A9E8 /* Assets.xcassets */; };
+		39A9422C22967D510037A9E8 /* Homer.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9422822967D500037A9E8 /* Homer.png */; };
+		39A9422D22967D510037A9E8 /* Lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9422922967D510037A9E8 /* Lisa.png */; };
+		39A9422E22967D510037A9E8 /* Maggie.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9422A22967D510037A9E8 /* Maggie.png */; };
+		39A9422F22967D510037A9E8 /* Bart.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A9422B22967D510037A9E8 /* Bart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		39A9421A22967C020037A9E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		39A9421C22967C020037A9E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39A9421E22967C020037A9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A9422822967D500037A9E8 /* Homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homer.png; sourceTree = "<group>"; };
+		39A9422922967D510037A9E8 /* Lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lisa.png; sourceTree = "<group>"; };
+		39A9422A22967D510037A9E8 /* Maggie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maggie.png; sourceTree = "<group>"; };
+		39A9422B22967D510037A9E8 /* Bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 		39A9421622967C020037A9E8 /* iMessage MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				39A9422B22967D510037A9E8 /* Bart.png */,
+				39A9422822967D500037A9E8 /* Homer.png */,
+				39A9422922967D510037A9E8 /* Lisa.png */,
+				39A9422A22967D510037A9E8 /* Maggie.png */,
 				39A9421722967C020037A9E8 /* MessagesViewController.swift */,
 				39A9421922967C020037A9E8 /* MainInterface.storyboard */,
 				39A9421C22967C020037A9E8 /* Assets.xcassets */,
@@ -197,8 +209,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A9422F22967D510037A9E8 /* Bart.png in Resources */,
+				39A9422E22967D510037A9E8 /* Maggie.png in Resources */,
+				39A9422D22967D510037A9E8 /* Lisa.png in Resources */,
 				39A9421D22967C020037A9E8 /* Assets.xcassets in Resources */,
 				39A9421B22967C020037A9E8 /* MainInterface.storyboard in Resources */,
+				39A9422C22967D510037A9E8 /* Homer.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
